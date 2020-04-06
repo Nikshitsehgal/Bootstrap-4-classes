@@ -1,0 +1,17 @@
+.navbar .navbar-brand {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px blue;
+}
+
+.navbar-toggler-icon {
+  color: black;
+  background-color: black;
+}
