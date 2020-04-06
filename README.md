@@ -2,7 +2,7 @@
 Bootstrap 4 class names and templates
 
 
-To excess the main Home Page : <em>Bootstrap_4_classes/index.html</em>
+<b>To excess the main Home Page : <em>Bootstrap_4_classes/index.html </em> </b>
 
 This contains all the classes of bootstrap 4 with examples.
 
