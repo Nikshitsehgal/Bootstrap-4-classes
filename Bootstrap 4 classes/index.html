@@ -1,9 +1,14 @@
+<!-- ***********************************
+****************************************
+*******Created by Nikshit Sehgal********
+*******Copyright 2019 ******************
+*******For Reference Purpose Only*******
+****************************************
+**************************************** -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script
       src="https://kit.fontawesome.com/cdd6f4fd1b.js"
       crossorigin="anonymous"
@@ -260,12 +265,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col-md-6 d-flex align-items-end">
-            <p class="lead">
-              Created and Maintained By: Nikshit Sehgal
-            </p>
-          </div>
         </div>
       </div>
     </div>
@@ -275,8 +274,13 @@
     <footer class="bg-dark text-white py-3 text-right">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <p>Copyright &copy; Aanik Associates</p>
+          <div class="col-md-6 text-left">
+            <p class="lead">
+              Created and Maintained By: Nikshit Sehgal
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>Copyright &copy; <span id="year"></span></p>
           </div>
         </div>
       </div>
@@ -298,5 +302,16 @@
       integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $("#year").text(new Date().getFullYear());
+    </script>
+
+    <!-- ***********************************
+    ****************************************
+    *******Created by Nikshit Sehgal********
+    *******Copyright 2019 ******************
+    *******For Reference Purpose Only*******
+    ****************************************
+    **************************************** -->
   </body>
 </html>
